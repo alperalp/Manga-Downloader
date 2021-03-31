@@ -21,7 +21,8 @@ elif browser == "c":
     from selenium.webdriver.chrome.options import Options
     options = Options()
     options.add_argument('--headless')
-    options.add_argument('--disable-gpu')  # Last I checked this was necessary.
+    options.add_argument('--disable-gpu')
+    options.add_argument('log-level=3')  
     
     driver = webdriver.Chrome(executable_path="chromedriver.exe", chrome_options=options)
 
@@ -96,15 +97,3 @@ for link in sec_chap:
             urllib.request.urlretrieve(img["data-src"],(f'{parent_dir}\{chapter_name[chapter_link.index(link)]}\{images.index(img)}.jpg'))
             print(img["data-src"])
 driver.close()
-
-            
-
-        
-        
-
-            
-        
-    
-    
-
-
