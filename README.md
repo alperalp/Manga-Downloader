@@ -7,4 +7,4 @@ Then choose the parts that you want to download. For Example: "1-5"
 ![image](https://user-images.githubusercontent.com/58988396/113183614-e3b70100-925c-11eb-9e4e-48f3a84f95a2.png)
 If you want to download  a specific part you can type your part as : "5-5".
 
-Then it will start to download manga as PNG files with a good file order.
+Then it will start to download manga as PNG files with a file order.
