@@ -1,4 +1,4 @@
-# Manga-Downloader
+# Manga-Downloader (Not working anymore)
 This is a basic python manga downloader. You should download the dependent libraries and then just launch the python code. 
 You can use 2 different browsers Chrome and Firefox. Its supports Chrome 89.x.x.x. You can only use "https://mangamelon.com/"
 You should just paste the MangaMelon link of manga to the command line. For Example: "https://mangamelon.com/manga/naruto"
